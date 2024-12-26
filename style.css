@@ -8,7 +8,7 @@ font-family: "Montserrat", serif;*/
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Montserrat", serif;
+    font-family: "Inconsolata", serif;
     list-style: none;
     text-decoration: none;
     color: white;
@@ -77,4 +77,70 @@ header {
     grid-template-columns: 1fr 1fr;
     align-items: center;
     gap: 2rem;
+}
+
+section {
+    padding: 0 8%;
+}
+
+.hero-text h5 {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.hero-text h1 {
+    font-size: 50px;
+    line-height: 1;
+    margin: 0 0 30px;
+    font-family: "Roboto Mono", monospace;
+}
+
+.hero-text h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    font-size: 80%;
+    margin-bottom: 40px;
+    line-height: 1.9;
+}
+
+.hero-img img {
+    width: 400px;
+    margin: 10% 0 0;
+    height: auto;
+    transition: all 5s linear;
+}
+
+.hero-img:hover {
+    width: 450px;
+    opacity: 0.6;
+}
+
+.hero-text a {
+    display: inline-block;
+    background-color: #4d4d4d;
+    border: 1px solid transparent;
+    padding: 15px 30px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 30px;
+    text-transform: uppercase;
+    transition: all .5s ease;
+}
+
+.hero-text a:hover{
+    background-color: transparent;
+    border: 1px solid white;
+    transform: translateX(8px);
+}
+
+.hero-text a.video{
+    background-color: transparent;
+    border: 1px solid white;
+    margin-left: 20px;
 }
