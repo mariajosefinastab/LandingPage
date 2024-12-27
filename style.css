@@ -108,14 +108,14 @@ section {
     line-height: 1.9;
 }
 
-.hero-img img {
+.hero-img img{
     width: 400px;
-    margin: 10% 0 0;
+    margin: 10% 0 0 10%;
     height: auto;
-    transition: all 5s linear;
+    transition: all 5s linear; 
 }
 
-.hero-img:hover {
+.hero-img img:hover {
     width: 450px;
     opacity: 0.6;
 }
