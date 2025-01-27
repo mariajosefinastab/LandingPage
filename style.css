@@ -263,9 +263,9 @@ section {
         display: block;
         margin: 7px 0;
     }
-    
 
-    #menu-toggle:checked +label.menu-icon-action + ul {
+    .navList.open{
         right: 0;
     }
+    
 }
